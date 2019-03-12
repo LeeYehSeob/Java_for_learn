@@ -1,4 +1,13 @@
+<!--
 
+생산관리 등록 화면
+제품의 정보를 입력하는 화면
+그룹의 경우 그룹 코드를 통해 외래키로 연결되어있으며,
+select 메뉴에서 사용됨
+
+comment : 다시 보니까 파일명이 마음에 안든다.
+
+-->
 <%@page import="net.product.model.GroupcodeVO"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
