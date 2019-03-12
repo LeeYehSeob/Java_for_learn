@@ -1,4 +1,16 @@
+<!-- 
 
+생산관리 조회/수정 페이지
+등록페이지에서 양식을 가져와서 만듬
+
+comment :
+JSP 에서 input 타입중 text 요소를
+button으로 처리하기 까다로워서
+조회랑 수정을 둘다 submit으로 만들고 value를 플래그값으로 이용함
+
+역시나 파일명이 맘에 안든다
+
+-->
 <%@page import="net.product.model.ProductVO"%>
 <%@page import="net.product.model.GroupcodeVO"%>
 <%@page import="java.util.ArrayList"%>
